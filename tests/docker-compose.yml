@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  webui:
+    build:
+      context: ../
+      dockerfile: ./tests/Dockerfile
+    ports:
+      - "8080:8080"
